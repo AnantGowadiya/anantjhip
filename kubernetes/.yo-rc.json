@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": [
+      "ui",
+      "organization",
+      "leave",
+      "meeting",
+      "notification"
+    ],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "anantgowadiya",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "marvel",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "35.222.195.46.nip.io",
+    "istio": true,
+    "jwtSecretKey": "OTliODI2OTc3ZjVmMWU5YTFjNTkyNDM5YWNhMDc5N2MxMWFlZDE2Mzk4Yzc1MTMzZDZhZTBhMWM3YzA1OTliYmE1NGRjMTYxNjc1ZTM4YWU0ZGExNWViOGVjMDkzZjRiYzA0ZA=="
+  }
+}
